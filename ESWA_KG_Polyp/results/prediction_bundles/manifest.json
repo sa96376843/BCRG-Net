@@ -1,0 +1,416 @@
+{
+  "kvasir_ablation_boundary_s13_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "40e58ed0c7e8bdb62f424808df0415f0d8a1904dca3ee1abd6236dbfd1b26725"
+  },
+  "kvasir_ablation_boundary_s29_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "fb7084cae475f31d5bbbbbf3d4c9727ef4ebf01ccc152f0039ac75d4ee195f21"
+  },
+  "kvasir_ablation_boundary_s47_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "e0d2988842c8b4e7f2cfc885692d6af60cfcba0b7b93fb726843edc53768ff0e"
+  },
+  "kvasir_ablation_dual_s13_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "b51900eee90c09bd0a66067c96f57ef00d12faf2a5a425c6c1da77462e43c603"
+  },
+  "kvasir_ablation_dual_s29_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "86adf58ea64a476fb4c983339848e6e471101c11e528379d2c56f3a96daa5b08"
+  },
+  "kvasir_ablation_dual_s47_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "3a2961144e8e332131c4453039daee5d5a0e8d25c1cbdb83ee9b7a3ba3a64143"
+  },
+  "kvasir_ablation_graph_only_s13_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "cd6994e8eabab4172b40b32e8254c99209c26c998cdffccd8d3f078fbd5e90fc"
+  },
+  "kvasir_ablation_graph_only_s29_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 148,
+    "missing_exact_binary_ids": [
+      "cju43eigtm6ev0801mv0m96t1"
+    ],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "0ca533e2b85ea980f9f1dfb2820d6ef42c6ef141512644c11f9e781c9dbb6704"
+  },
+  "kvasir_ablation_graph_only_s47_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "19a022a69b60bbc81acd93c19239e101c86390501550699a604894be8ee4edfd"
+  },
+  "kvasir_ablation_relation_s13_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "e22d01e664feb2d219dd902682cdb213b03a9eadec0556fd1fdd8bc2423ee373"
+  },
+  "kvasir_ablation_relation_s29_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "4519be3024483bdd6263b3687393362769ec67de4a7dcd89744227c01efa23bf"
+  },
+  "kvasir_ablation_relation_s47_size64": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "b21cdea36acfdebb5925cf90d0e3c8d3a70f5897c755190f6c7624f0455b5510"
+  },
+  "kvasir_attention_original_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "4ecf1d20598e8bcb693ad6e6d5d1f5a0aa801d16dbe7dce61a27421b6be6419c"
+  },
+  "kvasir_attention_original_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 148,
+    "missing_exact_binary_ids": [
+      "cju7csvlb22fr0850lvm45n3x"
+    ],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "86781fe2fbc69d201b757e7e143a14db4fd0d14317970fda5e66a62150912061"
+  },
+  "kvasir_attention_original_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "37f3dee8f63c6ed2c51c0e3d47cc48e456592c1d2fc2d3963dd62d0b495a30fe"
+  },
+  "kvasir_attention_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "91080813de06ea13f65be45c43885cfea0f8151b52405c3e4661d7eb239c3ceb"
+  },
+  "kvasir_attention_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "74645640367bffc38606e76292e2fa0cf27b95cab2a8716f880bfcce6c98e87a"
+  },
+  "kvasir_attention_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "fa08c3c1826dcf7e1a3c67e3616649d23f74c5248e25bbb0bd373f4a47f79d39"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.0": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "a080e38ac70297652b9036204bd7cadb8f4cc13a6fbd10c7512738ca226238f8"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.05": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "8395c0e81f3867262dc96447cffd58c98fa37b41f422e417280e27b092c6515d"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "10cd9f421b5fcdb0e1ee54ea6b8c76b2d99ccac30b5d547ca8bff62764f2af88"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.1_branch0.0": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "373c823f747b54b9576c0c94c250cbcb6c6ae0d21fda6553f0ca6c8358f7d200"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.1_size128": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      128,
+      128
+    ],
+    "sha256": "a86f156ec4fb7857415ade976056fa2fd7828006c8418f74e738e5f279f19008"
+  },
+  "kvasir_bcskg_s13_r0.05_b0.2": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "6fb7bc4056f54c10137e5f7f01f911c97a6ce917b1b2179ed58f9fcd8336d1da"
+  },
+  "kvasir_bcskg_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "93eb6a5a1e22729aaae3b212f852e55310f88dec67fe5d051ff5d6fdfc9662cb"
+  },
+  "kvasir_bcskg_s29_r0.05_b0.1_branch0.0": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "7ec133b019231916016d376b6e043619616125fc5e00ef2cafc92df808428b16"
+  },
+  "kvasir_bcskg_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "c08bff008d8fd6b4def082cc46d4ffbdb023c8a07311f608801facd265700413"
+  },
+  "kvasir_bcskg_s47_r0.05_b0.1_branch0.0": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "6f9058a3431acad7007dc33adadfc1d5b4ea2787367d4598add239aee57bf2a2"
+  },
+  "kvasir_deeplab_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "1e6a75cc8e835655039603b3478bd5e94199609b99299e16b46b4224072b45a9"
+  },
+  "kvasir_deeplab_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "be25557d7affa680f8704c4b508e8fd18dc864b0b766a298396c29a175492da2"
+  },
+  "kvasir_deeplab_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "ac15a3c9aaf841309b37484841d9a9d2c46c93b2fb29f612f0a72ad4c738a52f"
+  },
+  "kvasir_unet_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "637ba6571725ae43b915780b4725adc849b698a1cebb7f5bd67cf208aff04c17"
+  },
+  "kvasir_unet_s13_r0.05_b0.1_base10": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "fbdc24a82e6de29b0e6780723aea359f6dd4b5b684f133d36014224095196fe9"
+  },
+  "kvasir_unet_s13_r0.05_b0.1_size128": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      128,
+      128
+    ],
+    "sha256": "981f0faeb901d3eee73fc623bfcfad6990b68282af4f3fc1c1daf5c1d0a083c2"
+  },
+  "kvasir_unet_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "d445c9bdea8ab4b1636a6a909162723cb6f2308bc8c09c00428fec7c9f4a5285"
+  },
+  "kvasir_unet_s29_r0.05_b0.1_base10": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "bd3363449f599cb8d47e16c685a2891e33c116b92e078239e61c27c96327d4cb"
+  },
+  "kvasir_unet_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "7bc0b4741ed460a86ee19b9b07f81c384912847c0c5990bb8459442d75e78a41"
+  },
+  "kvasir_unet_s47_r0.05_b0.1_base10": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "f04138bc48b14951cf8aa47696f2976d198bda6187278a1016caa7fb03a5c8ed"
+  },
+  "kvasir_unetpp_s13_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "abd4b9383ff556aeb28aa1f4d0641f2b654480dba8eebabd5b57ac5db1b9faf6"
+  },
+  "kvasir_unetpp_s29_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "3e450dd743a7bbd860fc10425643bcb12f05bd103833536a315051637ac82b9a"
+  },
+  "kvasir_unetpp_s47_r0.05_b0.1": {
+    "prob_count": 149,
+    "exact_binary_count": 149,
+    "missing_exact_binary_ids": [],
+    "shape": [
+      64,
+      64
+    ],
+    "sha256": "2720e2f9b330fb7fa58e769e78b7234b868068448ae1839fe9916664e67c30ae"
+  }
+}

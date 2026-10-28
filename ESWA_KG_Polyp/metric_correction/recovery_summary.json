@@ -1,0 +1,316 @@
+{
+  "runs_total": 41,
+  "runs_processed": 41,
+  "images_total": 6109,
+  "unique_masks": 6107,
+  "unique_metrics_multiple_masks": 0,
+  "bounded_cases": [
+    {
+      "run": "kvasir_ablation_graph_only_s29_size64",
+      "id": "cju43eigtm6ev0801mv0m96t1",
+      "ambiguous_pixels": 2,
+      "compatible_masks": 2,
+      "status": "bounded_metrics_multiple_masks",
+      "source_sha256": "d67646de66d13cfb66065376bcf2db00fe6a0b29bd618b40753514bfad5dd680"
+    },
+    {
+      "run": "kvasir_attention_original_s29_r0.05_b0.1",
+      "id": "cju7csvlb22fr0850lvm45n3x",
+      "ambiguous_pixels": 3,
+      "compatible_masks": 3,
+      "status": "bounded_metrics_multiple_masks",
+      "source_sha256": "8a37b4629d5ace95e21355f2f93e8175f8acdb20bdc1d864c017ccd98ba25988"
+    }
+  ],
+  "max_ambiguous_pixels": 7,
+  "acceptance_tolerance": 1e-10,
+  "runs": [
+    {
+      "run": "kvasir_ablation_boundary_s13_size64",
+      "old_hd95": 10.55362212580618,
+      "new_hd95": 10.769708282707041,
+      "old_assd": 2.9326411934110066,
+      "new_assd": 3.681170698453864
+    },
+    {
+      "run": "kvasir_ablation_boundary_s29_size64",
+      "old_hd95": 11.358135285258752,
+      "new_hd95": 11.61874949967702,
+      "old_assd": 3.2656114073360114,
+      "new_assd": 3.9957219896745118
+    },
+    {
+      "run": "kvasir_ablation_boundary_s47_size64",
+      "old_hd95": 11.166619038939796,
+      "new_hd95": 11.413450090321856,
+      "old_assd": 3.2102838387715535,
+      "new_assd": 3.891841123001181
+    },
+    {
+      "run": "kvasir_ablation_dual_s13_size64",
+      "old_hd95": 12.27358455265397,
+      "new_hd95": 12.463363303199424,
+      "old_assd": 3.579097016759114,
+      "new_assd": 4.336670552660192
+    },
+    {
+      "run": "kvasir_ablation_dual_s29_size64",
+      "old_hd95": 12.057980540715656,
+      "new_hd95": 12.288892933089304,
+      "old_assd": 3.524110716939811,
+      "new_assd": 4.2954644238547175
+    },
+    {
+      "run": "kvasir_ablation_dual_s47_size64",
+      "old_hd95": 10.827731376332604,
+      "new_hd95": 11.098357483516004,
+      "old_assd": 3.114575964994528,
+      "new_assd": 3.7854489482411244
+    },
+    {
+      "run": "kvasir_ablation_graph_only_s13_size64",
+      "old_hd95": 12.033245555298155,
+      "new_hd95": 12.273481461302007,
+      "old_assd": 3.527046578193457,
+      "new_assd": 4.259148442649099
+    },
+    {
+      "run": "kvasir_ablation_graph_only_s29_size64",
+      "old_hd95": 11.221870329712292,
+      "new_hd95": 11.486800165546214,
+      "old_assd": 2.9464932148480014,
+      "new_assd": null
+    },
+    {
+      "run": "kvasir_ablation_graph_only_s47_size64",
+      "old_hd95": 10.090441484400108,
+      "new_hd95": 10.294191583710873,
+      "old_assd": 2.859704910596092,
+      "new_assd": 3.526113092300192
+    },
+    {
+      "run": "kvasir_ablation_relation_s13_size64",
+      "old_hd95": 11.7994536125946,
+      "new_hd95": 11.985650607509287,
+      "old_assd": 3.316833546978526,
+      "new_assd": 4.058766266921191
+    },
+    {
+      "run": "kvasir_ablation_relation_s29_size64",
+      "old_hd95": 11.294325141012784,
+      "new_hd95": 11.501569833954735,
+      "old_assd": 3.29478813511502,
+      "new_assd": 4.0296165696696935
+    },
+    {
+      "run": "kvasir_ablation_relation_s47_size64",
+      "old_hd95": 11.070934451971691,
+      "new_hd95": 11.376837171424931,
+      "old_assd": 3.2234717512440896,
+      "new_assd": 3.8956813933392054
+    },
+    {
+      "run": "kvasir_attention_original_s13_r0.05_b0.1",
+      "old_hd95": 10.638068703520322,
+      "new_hd95": 10.836676744927399,
+      "old_assd": 3.167861978367759,
+      "new_assd": 3.8650660035726214
+    },
+    {
+      "run": "kvasir_attention_original_s29_r0.05_b0.1",
+      "old_hd95": 11.124283182876043,
+      "new_hd95": 11.402051483766499,
+      "old_assd": 2.9618222702519628,
+      "new_assd": null
+    },
+    {
+      "run": "kvasir_attention_original_s47_r0.05_b0.1",
+      "old_hd95": 11.252643417481746,
+      "new_hd95": 11.481771538209255,
+      "old_assd": 3.293808339137104,
+      "new_assd": 4.023293453296638
+    },
+    {
+      "run": "kvasir_attention_s13_r0.05_b0.1",
+      "old_hd95": 11.11203634604674,
+      "new_hd95": 11.295651998668182,
+      "old_assd": 3.447370106224485,
+      "new_assd": 4.193768039473886
+    },
+    {
+      "run": "kvasir_attention_s29_r0.05_b0.1",
+      "old_hd95": 12.519319915243837,
+      "new_hd95": 12.758736282651254,
+      "old_assd": 3.740671026126377,
+      "new_assd": 4.491331862547656
+    },
+    {
+      "run": "kvasir_attention_s47_r0.05_b0.1",
+      "old_hd95": 10.114236094848165,
+      "new_hd95": 10.317431077709253,
+      "old_assd": 2.945096664462546,
+      "new_assd": 3.630467059021286
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.0",
+      "old_hd95": 10.942549375990808,
+      "new_hd95": 11.106525707565625,
+      "old_assd": 3.105906275640367,
+      "new_assd": 3.8654732900413133
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.05",
+      "old_hd95": 11.89337245593525,
+      "new_hd95": 12.075632752082726,
+      "old_assd": 3.396340916198729,
+      "new_assd": 4.10208754994995
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.1",
+      "old_hd95": 10.524869582312055,
+      "new_hd95": 10.748341376313517,
+      "old_assd": 3.1741658795450456,
+      "new_assd": 3.8410664053149293
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.1_branch0.0",
+      "old_hd95": 12.17977537006755,
+      "new_hd95": 12.385826189987215,
+      "old_assd": 3.4510267116014193,
+      "new_assd": 4.191913919625466
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.1_size128",
+      "old_hd95": 24.80211810527699,
+      "new_hd95": 25.59569077065165,
+      "old_assd": 6.818078164929252,
+      "new_assd": 8.443924046803641
+    },
+    {
+      "run": "kvasir_bcskg_s13_r0.05_b0.2",
+      "old_hd95": 12.717948847406758,
+      "new_hd95": 12.936356194291239,
+      "old_assd": 3.5367715848071564,
+      "new_assd": 4.262297949472413
+    },
+    {
+      "run": "kvasir_bcskg_s29_r0.05_b0.1",
+      "old_hd95": 10.44785821453402,
+      "new_hd95": 10.69491165571457,
+      "old_assd": 3.012928625294412,
+      "new_assd": 3.740571439254106
+    },
+    {
+      "run": "kvasir_bcskg_s29_r0.05_b0.1_branch0.0",
+      "old_hd95": 11.09321784470268,
+      "new_hd95": 11.307701158500251,
+      "old_assd": 3.2029203967882394,
+      "new_assd": 3.9275962381374256
+    },
+    {
+      "run": "kvasir_bcskg_s47_r0.05_b0.1",
+      "old_hd95": 10.060187168885339,
+      "new_hd95": 10.298609771331083,
+      "old_assd": 3.0163517587386703,
+      "new_assd": 3.6710799358209507
+    },
+    {
+      "run": "kvasir_bcskg_s47_r0.05_b0.1_branch0.0",
+      "old_hd95": 11.879996627794904,
+      "new_hd95": 12.077812433493067,
+      "old_assd": 3.2818315255722874,
+      "new_assd": 3.9949556968862754
+    },
+    {
+      "run": "kvasir_deeplab_s13_r0.05_b0.1",
+      "old_hd95": 10.812377091626058,
+      "new_hd95": 11.06702480484932,
+      "old_assd": 3.054609058904425,
+      "new_assd": 3.8569249713415985
+    },
+    {
+      "run": "kvasir_deeplab_s29_r0.05_b0.1",
+      "old_hd95": 10.971774253618534,
+      "new_hd95": 11.261624233420225,
+      "old_assd": 3.28616815145936,
+      "new_assd": 4.059483321763756
+    },
+    {
+      "run": "kvasir_deeplab_s47_r0.05_b0.1",
+      "old_hd95": 9.977769150005148,
+      "new_hd95": 10.25413495898686,
+      "old_assd": 2.9490700452651906,
+      "new_assd": 3.7292284943451977
+    },
+    {
+      "run": "kvasir_unet_s13_r0.05_b0.1",
+      "old_hd95": 13.095380040827383,
+      "new_hd95": 13.285721058266448,
+      "old_assd": 3.7724560534428706,
+      "new_assd": 4.5675759226857835
+    },
+    {
+      "run": "kvasir_unet_s13_r0.05_b0.1_base10",
+      "old_hd95": 10.279040584217439,
+      "new_hd95": 10.479682815981654,
+      "old_assd": 2.7974109947588843,
+      "new_assd": 3.4753975700008874
+    },
+    {
+      "run": "kvasir_unet_s13_r0.05_b0.1_size128",
+      "old_hd95": 26.64027025843897,
+      "new_hd95": 27.252976804388734,
+      "old_assd": 7.3835561722937735,
+      "new_assd": 8.895680007042822
+    },
+    {
+      "run": "kvasir_unet_s29_r0.05_b0.1",
+      "old_hd95": 12.732363405553405,
+      "new_hd95": 12.97968291923958,
+      "old_assd": 3.6687173504231962,
+      "new_assd": 4.428370230805634
+    },
+    {
+      "run": "kvasir_unet_s29_r0.05_b0.1_base10",
+      "old_hd95": 10.928886420667508,
+      "new_hd95": 11.245470509191065,
+      "old_assd": 3.077745289156243,
+      "new_assd": 3.769776172399423
+    },
+    {
+      "run": "kvasir_unet_s47_r0.05_b0.1",
+      "old_hd95": 11.185266741253935,
+      "new_hd95": 11.382462624032504,
+      "old_assd": 3.119637058878914,
+      "new_assd": 3.77078749626383
+    },
+    {
+      "run": "kvasir_unet_s47_r0.05_b0.1_base10",
+      "old_hd95": 10.563611979599086,
+      "new_hd95": 10.754024901988382,
+      "old_assd": 3.058523728873321,
+      "new_assd": 3.7500216558446224
+    },
+    {
+      "run": "kvasir_unetpp_s13_r0.05_b0.1",
+      "old_hd95": 11.601762008436117,
+      "new_hd95": 11.783033396336625,
+      "old_assd": 3.2747793025760847,
+      "new_assd": 3.963400509462568
+    },
+    {
+      "run": "kvasir_unetpp_s29_r0.05_b0.1",
+      "old_hd95": 11.216106090478515,
+      "new_hd95": 11.442459799893067,
+      "old_assd": 3.2939224218501337,
+      "new_assd": 3.969721448545995
+    },
+    {
+      "run": "kvasir_unetpp_s47_r0.05_b0.1",
+      "old_hd95": 10.613387993450212,
+      "new_hd95": 10.810469104455006,
+      "old_assd": 2.9083684995123535,
+      "new_assd": 3.606120445709467
+    }
+  ]
+}

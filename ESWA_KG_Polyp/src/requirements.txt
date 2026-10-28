@@ -1,0 +1,7 @@
+torch==2.8.0
+numpy==2.2.5
+scipy==1.16.2
+Pillow==13.0.0
+pandas==2.3.2
+matplotlib==3.10.3
+seaborn==0.13.2

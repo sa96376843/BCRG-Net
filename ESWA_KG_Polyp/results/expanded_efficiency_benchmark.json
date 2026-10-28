@@ -1,0 +1,58 @@
+[
+  {
+    "method": "unet",
+    "parameters": 122465,
+    "latency_ms_mean": 7.952413999980005,
+    "latency_ms_sd": 5.647018372265549,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "attention",
+    "parameters": 122524,
+    "latency_ms_mean": 8.500822233387831,
+    "latency_ms_sd": 5.85793600293994,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "attention_original",
+    "parameters": 124512,
+    "latency_ms_mean": 9.441478133339842,
+    "latency_ms_sd": 7.009295320701908,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "unetpp",
+    "parameters": 140449,
+    "latency_ms_mean": 15.27046683328687,
+    "latency_ms_sd": 8.967536486825724,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "deeplab",
+    "parameters": 91625,
+    "latency_ms_mean": 15.27790763335967,
+    "latency_ms_sd": 9.640279640364653,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "unetwide",
+    "parameters": 191061,
+    "latency_ms_mean": 10.449380933368957,
+    "latency_ms_sd": 7.993798418126687,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  },
+  {
+    "method": "bcskg",
+    "parameters": 180685,
+    "latency_ms_mean": 16.1653199332856,
+    "latency_ms_sd": 9.224866198057384,
+    "warmup_passes": 5,
+    "timed_passes": 30
+  }
+]

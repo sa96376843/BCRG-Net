@@ -1,0 +1,5 @@
+**/__pycache__/
+**/*.pyc
+ESWA_KG_Polyp/data/
+ESWA_KG_Polyp/results/**/predictions/
+ESWA_KG_Polyp/results/**/predictions_binary/

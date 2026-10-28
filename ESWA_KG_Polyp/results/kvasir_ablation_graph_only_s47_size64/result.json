@@ -1,0 +1,99 @@
+{
+  "dataset": "kvasir",
+  "method": "ablation_graph_only",
+  "variant": "graph_only",
+  "seed": 47,
+  "size": 64,
+  "base": 8,
+  "epochs": 12,
+  "batch": 16,
+  "lr": 0.002,
+  "lambda_rel": 0,
+  "lambda_bd": 0,
+  "lambda_cal": 0,
+  "branch_weight": 0.2,
+  "train_n": 713,
+  "val_n": 138,
+  "test_n": 149,
+  "test": {
+    "dice": 0.7364911559802901,
+    "iou": 0.6353384653559154,
+    "hd95": 10.294191583710873,
+    "assd": 3.526113092300192,
+    "biou": 0.6775448968969714
+  },
+  "params": 180685,
+  "graph_gate": -0.181958869099617,
+  "fusion_weight": 0.0,
+  "threshold": 0.5499999999999999,
+  "latency_ms": 21.67036533355713,
+  "train_seconds": 246.6684205532074,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4125176456239488,
+      "val_dice": 0.43947254690059234
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2191320419311524,
+      "val_dice": 0.49618441265526514
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.0999666915999518,
+      "val_dice": 0.48196774597130704
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.9820610602696737,
+      "val_dice": 0.5694462450712517
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8848856303426954,
+      "val_dice": 0.5777633645410141
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7862857434484694,
+      "val_dice": 0.6286434799399268
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7311476535267301,
+      "val_dice": 0.6359872120380324
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6682822717560662,
+      "val_dice": 0.6594784668919588
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6196115242110358,
+      "val_dice": 0.6748726090795687
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5789749251471625,
+      "val_dice": 0.6851083787007489
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5508710079722934,
+      "val_dice": 0.691208083475651
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5251278499762217,
+      "val_dice": 0.6919764047028568
+    }
+  ],
+  "legacy_surface_metrics": {
+    "hd95": 10.090441484400108,
+    "assd": 2.859704910596092
+  },
+  "surface_metric_definition": "Boundary-to-boundary; pooled bidirectional HD95 and point-weighted ASSD; empty-mask exclusions unchanged.",
+  "surface_metric_provenance": "Exhaustive float16 rounding-interval enumeration constrained by all five archived per-image metrics. Non-unique corrected values are null with bounds and all candidate values retained; see surface_metric_recovery_audit.csv."
+}

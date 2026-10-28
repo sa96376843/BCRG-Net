@@ -1,0 +1,45 @@
+{
+  "seed": 29,
+  "gamma": -0.20264290273189545,
+  "selected_fusion": 0.1,
+  "selected": {
+    "dice": 0.7332628376308585,
+    "iou": 0.6239960667569302,
+    "hd95": 10.69491165571457,
+    "assd": 3.740571439254106,
+    "biou": 0.645748997267386
+  },
+  "selected_threshold": 0.49999999999999994,
+  "base_only": {
+    "fusion": 0.0,
+    "threshold": 0.39999999999999997,
+    "test": {
+      "dice": 0.7288457122239986,
+      "iou": 0.620147974903992,
+      "hd95": null,
+      "assd": null,
+      "biou": 0.6391138713098995
+    },
+    "legacy_surface_metrics": {
+      "hd95": 11.006344470625393,
+      "assd": 3.24641047610413
+    },
+    "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+  },
+  "graph_only": {
+    "fusion": 1.0,
+    "threshold": 0.7,
+    "test": {
+      "dice": 0.6584639302430213,
+      "iou": 0.5348226244070915,
+      "hd95": null,
+      "assd": null,
+      "biou": 0.547112209901873
+    },
+    "legacy_surface_metrics": {
+      "hd95": 13.399155613221755,
+      "assd": 4.10309845439586
+    },
+    "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+  }
+}

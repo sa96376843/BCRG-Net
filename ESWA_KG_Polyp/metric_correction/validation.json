@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "training_runs": 41,
+  "archived_prediction_files_verified": 6109,
+  "unique_binary_masks_verified": 6107,
+  "bounded_assd_cases_verified": 2,
+  "empty_mask_cases": 77,
+  "frozen_mode_runs_without_surface_metrics": 5,
+  "checks": [
+    "Original probability SHA256s",
+    "Archived overlap and legacy surface metrics",
+    "Corrected boundary distances and monotonicity",
+    "Per-run means and bounds",
+    "Frozen-mode missing-value handling"
+  ]
+}

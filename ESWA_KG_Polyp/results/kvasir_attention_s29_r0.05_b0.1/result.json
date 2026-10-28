@@ -1,0 +1,97 @@
+{
+  "dataset": "kvasir",
+  "method": "attention",
+  "seed": 29,
+  "lambda_rel": 0.05,
+  "lambda_bd": 0.1,
+  "lambda_cal": 0,
+  "size": 64,
+  "base": 8,
+  "epochs": 12,
+  "batch": 16,
+  "lr": 0.002,
+  "train_n": 713,
+  "val_n": 138,
+  "test_n": 149,
+  "test": {
+    "dice": 0.6848013451655516,
+    "iou": 0.5716652073439266,
+    "hd95": 12.758736282651254,
+    "assd": 4.491331862547656,
+    "biou": 0.5868821131129146
+  },
+  "params": 122524,
+  "graph_gate": null,
+  "fusion_weight": null,
+  "threshold": 0.44999999999999996,
+  "latency_ms": 9.142661094665527,
+  "train_seconds": 157.51497435569763,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.223381641176012,
+      "val_dice": 0.43613089897509416
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.0664147814114888,
+      "val_dice": 0.41948564199258964
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9595326198471917,
+      "val_dice": 0.4759756373360051
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.876458031601376,
+      "val_dice": 0.5168096301854721
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8239719019995795,
+      "val_dice": 0.5470010514975314
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7682955768373277,
+      "val_dice": 0.5816135736380164
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7170285582542419,
+      "val_dice": 0.6129603850115609
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6749104340871175,
+      "val_dice": 0.6445680474923784
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6249317394362556,
+      "val_dice": 0.6417090030236091
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.5851400209797754,
+      "val_dice": 0.6432388416979201
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.5504790266354879,
+      "val_dice": 0.6512284489515175
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.5422854390409257,
+      "val_dice": 0.6545539853442573
+    }
+  ],
+  "legacy_surface_metrics": {
+    "hd95": 12.519319915243837,
+    "assd": 3.740671026126377
+  },
+  "surface_metric_definition": "Boundary-to-boundary; pooled bidirectional HD95 and point-weighted ASSD; empty-mask exclusions unchanged.",
+  "surface_metric_provenance": "Exhaustive float16 rounding-interval enumeration constrained by all five archived per-image metrics. Non-unique corrected values are null with bounds and all candidate values retained; see surface_metric_recovery_audit.csv."
+}

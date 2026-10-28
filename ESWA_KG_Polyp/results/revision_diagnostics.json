@@ -1,0 +1,190 @@
+{
+  "mechanism": [
+    {
+      "seed": 13,
+      "gamma": -0.22630377113819122,
+      "selected_fusion": 0.0,
+      "selected": {
+        "dice": 0.7253368271831102,
+        "iou": 0.6201106605601493,
+        "hd95": 10.748341376313517,
+        "assd": 3.8410664053149293,
+        "biou": 0.6510681546075304
+      },
+      "selected_threshold": 0.49999999999999994,
+      "base_only": {
+        "fusion": 0.0,
+        "threshold": 0.49999999999999994,
+        "test": {
+          "dice": 0.7253368271831102,
+          "iou": 0.6201106605601493,
+          "hd95": 10.748341376313517,
+          "assd": 3.8410664053149293,
+          "biou": 0.6510681546075304
+        },
+        "legacy_surface_metrics": {
+          "hd95": 10.524869582312055,
+          "assd": 3.1741658795450456
+        },
+        "surface_metric_status": "Recovered from identical selected fusion and threshold."
+      },
+      "graph_only": {
+        "fusion": 1.0,
+        "threshold": 0.7,
+        "test": {
+          "dice": 0.6916171530708868,
+          "iou": 0.5710833091065576,
+          "hd95": null,
+          "assd": null,
+          "biou": 0.5816905150422956
+        },
+        "legacy_surface_metrics": {
+          "hd95": 11.775796826301706,
+          "assd": 3.515479041207776
+        },
+        "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+      }
+    },
+    {
+      "seed": 29,
+      "gamma": -0.20264290273189545,
+      "selected_fusion": 0.1,
+      "selected": {
+        "dice": 0.7332628376308585,
+        "iou": 0.6239960667569302,
+        "hd95": 10.69491165571457,
+        "assd": 3.740571439254106,
+        "biou": 0.645748997267386
+      },
+      "selected_threshold": 0.49999999999999994,
+      "base_only": {
+        "fusion": 0.0,
+        "threshold": 0.39999999999999997,
+        "test": {
+          "dice": 0.7288457122239986,
+          "iou": 0.620147974903992,
+          "hd95": null,
+          "assd": null,
+          "biou": 0.6391138713098995
+        },
+        "legacy_surface_metrics": {
+          "hd95": 11.006344470625393,
+          "assd": 3.24641047610413
+        },
+        "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+      },
+      "graph_only": {
+        "fusion": 1.0,
+        "threshold": 0.7,
+        "test": {
+          "dice": 0.6584639302430213,
+          "iou": 0.5348226244070915,
+          "hd95": null,
+          "assd": null,
+          "biou": 0.547112209901873
+        },
+        "legacy_surface_metrics": {
+          "hd95": 13.399155613221755,
+          "assd": 4.10309845439586
+        },
+        "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+      }
+    },
+    {
+      "seed": 47,
+      "gamma": -0.21285709738731384,
+      "selected_fusion": 0.1,
+      "selected": {
+        "dice": 0.7434451809758669,
+        "iou": 0.6388947563851132,
+        "hd95": 10.298609771331083,
+        "assd": 3.6710799358209507,
+        "biou": 0.674063120626418
+      },
+      "selected_threshold": 0.5499999999999999,
+      "base_only": {
+        "fusion": 0.0,
+        "threshold": 0.5499999999999999,
+        "test": {
+          "dice": 0.7365967971560968,
+          "iou": 0.6326991536406907,
+          "hd95": null,
+          "assd": null,
+          "biou": 0.668422573202274
+        },
+        "legacy_surface_metrics": {
+          "hd95": 10.396950264877791,
+          "assd": 3.136194421035332
+        },
+        "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+      },
+      "graph_only": {
+        "fusion": 1.0,
+        "threshold": 0.7,
+        "test": {
+          "dice": 0.7109206117630227,
+          "iou": 0.5960453890037608,
+          "hd95": null,
+          "assd": null,
+          "biou": 0.617848288338184
+        },
+        "legacy_surface_metrics": {
+          "hd95": 11.146748953139547,
+          "assd": 3.2038359577288373
+        },
+        "surface_metric_status": "Unavailable: separate frozen-mode predictions were not archived."
+      }
+    }
+  ],
+  "efficiency": [
+    {
+      "method": "unet",
+      "parameters": 122465,
+      "gmacs_profiler": 0.042205184
+    },
+    {
+      "method": "attention",
+      "parameters": 122524,
+      "gmacs_profiler": 0.0422912
+    },
+    {
+      "method": "attention_original",
+      "parameters": 124512,
+      "gmacs_profiler": 0.042866688
+    },
+    {
+      "method": "unetpp",
+      "parameters": 140449,
+      "gmacs_profiler": 0.07995392
+    },
+    {
+      "method": "deeplab",
+      "parameters": 91625,
+      "gmacs_profiler": 0.034026496
+    },
+    {
+      "method": "unetwide",
+      "parameters": 191061,
+      "gmacs_profiler": 0.06565888
+    },
+    {
+      "method": "bcskg",
+      "parameters": 180685,
+      "gmacs_profiler": 0.071379009
+    }
+  ],
+  "graph_stats_seed13": {
+    "top5_mass": 0.42817869942460285,
+    "effective_neighbors": 21.721994873661323,
+    "top5_same_class": 0.8704278521089746,
+    "membership_dice": 0.6519655122596177
+  },
+  "validation_boundary_operator_dice": {
+    "0.01": 0.015730019807283318,
+    "0.05": 0.015730019807283318,
+    "0.1": 0.015730019807283318,
+    "0.2": 0.019046832670191045,
+    "0.3": 0.0219558091667125,
+    "0.5": 1.5031715922308848e-09
+  }
+}

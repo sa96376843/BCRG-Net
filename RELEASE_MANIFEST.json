@@ -1,0 +1,794 @@
+{
+  ".gitattributes": {
+    "bytes": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  ".gitignore": {
+    "bytes": 133,
+    "sha256": "d10073d6a42bdc548d30956fb9d644714b9b9af1fa67fa6f89356355ae98467a"
+  },
+  "DATA_SOURCES.md": {
+    "bytes": 622,
+    "sha256": "4b7e115dede2ace62531703c5b8b998a58098a96d394a885f970377291ba6119"
+  },
+  "ESWA_KG_Polyp/metric_correction/main_comparison.json": {
+    "bytes": 4870,
+    "sha256": "fa3e6d101403ed314c3626d1c8c68ef5905e0a98e987c7084fe467691bb88867"
+  },
+  "ESWA_KG_Polyp/metric_correction/recovery_summary.json": {
+    "bytes": 9810,
+    "sha256": "01b7f7f286da7eed98e79128881d7db3fff3c38b0d6aa552d52e77332a3795fb"
+  },
+  "ESWA_KG_Polyp/metric_correction/surface_metric_recovery_audit.csv": {
+    "bytes": 862364,
+    "sha256": "986b135fa555a9b2ad3db1ee0a86725f670b83a51def38465b86c7c85e7d5439"
+  },
+  "ESWA_KG_Polyp/metric_correction/validation.json": {
+    "bytes": 491,
+    "sha256": "a3eefb3c9e82d87dab81821e083a9a4c67ffefce14d2ce431ea8c0bc72b75a2f"
+  },
+  "ESWA_KG_Polyp/metric_correction/修正说明.md": {
+    "bytes": 4222,
+    "sha256": "8a686fba5d96cb24ca7c23716fae91f0ec3589758d274da7862e7a894b5585d2"
+  },
+  "ESWA_KG_Polyp/results/expanded_efficiency_benchmark.json": {
+    "bytes": 1331,
+    "sha256": "f7b75620b4777e992b3893b3eabd536dbaafaa086f14b60eb7f10b724a117e8f"
+  },
+  "ESWA_KG_Polyp/results/final_per_image_long.csv": {
+    "bytes": 222960,
+    "sha256": "6f38e58ab6077583d9c96781fc288ffa2594f828db3eb9e2579f0cab0fb6ed15"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s13_size64/per_image.json": {
+    "bytes": 51347,
+    "sha256": "f67a921ee4ac9501137564c3fda7a92679b8ce798e0d9e7c2bb8a25debaee847"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s13_size64/result.json": {
+    "bytes": 2578,
+    "sha256": "efa20c5c4554754e42c8089c748fbeb89927eb3dfb15f70c1bc6885766be8d2c"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s29_size64/per_image.json": {
+    "bytes": 51153,
+    "sha256": "3a9b26bc4a4551bd6f4ce46547272bb7bb2b49d9dd223643596160249a41649f"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s29_size64/result.json": {
+    "bytes": 2585,
+    "sha256": "e689511781cf9a3bfec8010d165cc733236fc72840aba270363d4a339aec57ed"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s47_size64/per_image.json": {
+    "bytes": 51208,
+    "sha256": "ffe2788c1d9e987f22e1d6f04c6aa7ff0244ace2cde38d28e5292fe38a70563b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_boundary_s47_size64/result.json": {
+    "bytes": 2580,
+    "sha256": "ed1c2e0a4f5cae3f822032f43c13a2a0d894597080a90ba0e1af8bb30a49b24a"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s13_size64/per_image.json": {
+    "bytes": 51498,
+    "sha256": "1b643929f6d2b60aa08174ba9a3090427fc3d2d52ba0898293fd0f9736591a68"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s13_size64/result.json": {
+    "bytes": 2550,
+    "sha256": "4d9f20386940f90da753c21f47b0d9d023b5131651168c308b202090055480f1"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s29_size64/per_image.json": {
+    "bytes": 51153,
+    "sha256": "fe25db2c117ea74045ea591c5ed14036cfadc7168435f81b2a61e3e4bd2fa2e2"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s29_size64/result.json": {
+    "bytes": 2553,
+    "sha256": "d0a86f66ddea59e27fd5bff1afd28a8b7849253ea6569b160446b7b94d4e0684"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s47_size64/per_image.json": {
+    "bytes": 51125,
+    "sha256": "7ccd5df02fc4ed64d5e2c5e9d46bde5ce32bade0ea138ed51e98ee0087253169"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_dual_s47_size64/result.json": {
+    "bytes": 2547,
+    "sha256": "39f3e975709d270eb66d84e37df2e1601ee22c93efff3a0b16483e8cf87a0acb"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s13_size64/per_image.json": {
+    "bytes": 50834,
+    "sha256": "20815e08a7b391949f45c7d670497b20e1bc57ffc2346b646481ee7704e1ab4f"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s13_size64/result.json": {
+    "bytes": 2573,
+    "sha256": "d3e71900b3aa3d25a4d0d4b8a9c3da3e8fa14f45b71ed519065b61f4242ef61b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s29_size64/per_image.json": {
+    "bytes": 51494,
+    "sha256": "7a8a661d54eb177bc80d05d8e65f18e95afe3218aa787695ad7c3cce909994a6"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s29_size64/result.json": {
+    "bytes": 2678,
+    "sha256": "48a5fc72210ca8d68bd0e8e8094c7d0bb5b154086dfd5fbaca1795840359a772"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s47_size64/per_image.json": {
+    "bytes": 50706,
+    "sha256": "a18f502e6ca9fbe8f34c3b99b93c3ce55228a0f9c896dd0f5f51481f9e7d1118"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_graph_only_s47_size64/result.json": {
+    "bytes": 2580,
+    "sha256": "e0229242b506c90096bf511135011b0ac2edf1adc3cbae2d1f6fce822e05022b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s13_size64/per_image.json": {
+    "bytes": 51103,
+    "sha256": "ffdc29a28029a4c14d82af785e64d640cf00c523433d8f8c44e5b6391e458bd4"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s13_size64/result.json": {
+    "bytes": 2577,
+    "sha256": "f5530eb6a5243d09e3202fdf538708d91b2ecdcb0a878b5ca3aed186c40fd976"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s29_size64/per_image.json": {
+    "bytes": 51283,
+    "sha256": "89753a8c6303107a780f876035bfabb124f79e89a49ecf440dae7afbc16e5165"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s29_size64/result.json": {
+    "bytes": 2583,
+    "sha256": "dc1f42ac83a3fff47bd12601437fc7f6a5ad697c45e810b9931507a7945b2d5f"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s47_size64/per_image.json": {
+    "bytes": 51255,
+    "sha256": "12ea0bc1c435907bd6bb261924053bae3f725c99984585f80ba8f3b851491127"
+  },
+  "ESWA_KG_Polyp/results/kvasir_ablation_relation_s47_size64/result.json": {
+    "bytes": 2565,
+    "sha256": "eaac088dcd60c5787960e85d3fc48c8042559e2a573cfa792136590b010eb3f2"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 50892,
+    "sha256": "55e9153cb635d6cbcdaaa662b799199e707ac4ae742c3e79daef5ad65413418c"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s13_r0.05_b0.1/result.json": {
+    "bytes": 2516,
+    "sha256": "89068713a58ba8c47233c6c25cf5235c3a7e851a37fd1dd16b2c533a1b999b2a"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "4b2e1faf7387c1fffa3c3a32cded26e86279eaa5aecad2d15d12db7890c0b364"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51461,
+    "sha256": "83ba12d971fb3401d1fcfca299eaa64f153187bc4fca99b2fccecea20765b26b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s29_r0.05_b0.1/result.json": {
+    "bytes": 2612,
+    "sha256": "973d3487484cebf949e60f9b6e1cb6895b1e3215cb35df81d6717422695b4e9d"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 321,
+    "sha256": "0a1bc2706929f0f3de6cc8b7ee85afa601042be38419bf39a5dbe2548238bab8"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 51225,
+    "sha256": "cf65bfd462590d33a68ad8fa2a6ef10264c3616cb53ccc1df5e3ee16f2985a2a"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s47_r0.05_b0.1/result.json": {
+    "bytes": 2513,
+    "sha256": "f16acf3a3a7c0694e0a34bab38ca0ba8b2fd30136a90f28bddfb343fd548c0eb"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_original_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "ad3279fc7f23bcd33434bc46859b58a96c8bb4642edeacc1a1cb3f10e65adcc7"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 50957,
+    "sha256": "e8c7b1b2ca13434bc4c2e893446898568f7ab7f48090172ab4119f8062176256"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s13_r0.05_b0.1/result.json": {
+    "bytes": 2500,
+    "sha256": "3aad1116bc1ab2fbcc58c698fc1baefe138468611dd9759c3288f4db82af3694"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 326,
+    "sha256": "98c7bb63639f2a659e9c5bb6b916c988ce9335afd9a84647081bb381e41f9926"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51120,
+    "sha256": "cc3e107601849d828b2fe8258d9ce2f17b58b0415b2035d80d81b7299f801e08"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s29_r0.05_b0.1/result.json": {
+    "bytes": 2509,
+    "sha256": "e2079711f1c07fad3404f94cc0c258f28b923fd2960e05b5057cf40dfb5e575f"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 325,
+    "sha256": "9c5a34d4efd1ceda2290d8c7b101ed3f9df98a802f615988fc7f3ef6418a394b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 51114,
+    "sha256": "c3a3880ac8e10e52b8eee2fc223966df7257fe80309a69b90ff82a59b884ad76"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s47_r0.05_b0.1/result.json": {
+    "bytes": 2509,
+    "sha256": "f7ea63747c436933d1cd3338d456743c1990319fd1426895227bf79d6279d4ae"
+  },
+  "ESWA_KG_Polyp/results/kvasir_attention_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "453956b66553318cf83f64c29b15fec8c78875ea7bf3c6fb37df22662e0ea5ec"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_mechanism.json": {
+    "bytes": 1230,
+    "sha256": "599533a48ae7542aa4579e2795c14d0d7ad2f886f6d8c7d11f6297987bef36f9"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.0/per_image.json": {
+    "bytes": 51154,
+    "sha256": "f0367e685a864f38cbdcc92799f842fa282982e9fbc45b988a376ff73cd769f5"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.0/result.json": {
+    "bytes": 2515,
+    "sha256": "03397f36d60f70bea16f10abdaf9c534b60b3f65fd752f427100865507d16429"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.05/per_image.json": {
+    "bytes": 50951,
+    "sha256": "83ca0af82fb0daaffc40529f6ed772c135a0392e00f9312205c1f664de348705"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.05/result.json": {
+    "bytes": 2519,
+    "sha256": "7531975df8ad05e042b6032c8d37b7821305884b7e340d90ccdf292c5dc37613"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 51332,
+    "sha256": "f2a59b7fea77c4db8198c7a836deed906ab992db7c3cdbb5888815fdf83751cf"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1/result.json": {
+    "bytes": 2524,
+    "sha256": "e03e8100d5f6bff2fa8b158734b620b5eb8ff66ea67925b67627384c08546bb3"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 323,
+    "sha256": "f88aa96ab799e568fcd6d69d67a8ca080272ef7eec30b8d1a4ee056b827930b8"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1_branch0.0/per_image.json": {
+    "bytes": 51058,
+    "sha256": "c7464326ad3096abd5e2c38439875323832546fd0db9984998943a0e4632e553"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1_branch0.0/result.json": {
+    "bytes": 2540,
+    "sha256": "138f31d17c9123c2ccd5dbe6fa9658c6f3cffdddc64659bb3bc7c7001f365092"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1_size128/per_image.json": {
+    "bytes": 52004,
+    "sha256": "9b7406fa5f56fc15aa4c7251a25857ff05969becb83ee6e2ec4e036d3f581208"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.1_size128/result.json": {
+    "bytes": 2513,
+    "sha256": "217f4be8c151c027f3d5b36b75dab261e2d40669bb73961a736cab4df50c020c"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.2/per_image.json": {
+    "bytes": 51257,
+    "sha256": "ad070edc26221195de1a33542866649c662aec1710f6f381e38e809b091d3a34"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s13_r0.05_b0.2/result.json": {
+    "bytes": 2521,
+    "sha256": "c3e489d6cd8bb620cf8a00f1e64283b3324233036f46aa2d6c5e9c4f7c45e401"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_mechanism.json": {
+    "bytes": 1203,
+    "sha256": "9b7b893d553a24aa1f7ac09af9ca59e3155c3e75eb66984d3abf37820bd11081"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51251,
+    "sha256": "676edd28b5cf599bd806f87a897e0c56def0117535a8c961ec3d81c0d2980d1c"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_r0.05_b0.1/result.json": {
+    "bytes": 2516,
+    "sha256": "1cda75881f4ba5b411be98ba0d6b094b65ecd128b1922210b24a094e64786a20"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "d5d78e50963ad99c2c0b9371d5c84f9224c2db11f906dd92cb025f0a7438f7df"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_r0.05_b0.1_branch0.0/per_image.json": {
+    "bytes": 51106,
+    "sha256": "91348877baf1ca25f10b96c9474412e4e37cd5fd41e23b411c55e6756b738b51"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s29_r0.05_b0.1_branch0.0/result.json": {
+    "bytes": 2527,
+    "sha256": "508358ef05e740abfb050f12257fc3cce06369d62543a69ee7b75fce3d1b7966"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_mechanism.json": {
+    "bytes": 1206,
+    "sha256": "63ca626652b31b2eec46cf42124e7ac4fa8a6339eff60796fb9bdccd49264f39"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 51091,
+    "sha256": "4e2b91e20e6bd9bdbe343e39095252c71c74b0aed8fb09055de132d774123ff7"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_r0.05_b0.1/result.json": {
+    "bytes": 2516,
+    "sha256": "6b04faaaf49080e20a33922a2d367c51ec3853e72d371062bb5c5e2814d792b6"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 323,
+    "sha256": "6d69db6ddb31329c8c3ebc2d0ad4f77e5cbba52e2eb153319525933fd7012e37"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_r0.05_b0.1_branch0.0/per_image.json": {
+    "bytes": 51361,
+    "sha256": "2f03b09c59342daddcdced85737f566c0458ef7445c0fc8ed25c653bdb45abf9"
+  },
+  "ESWA_KG_Polyp/results/kvasir_bcskg_s47_r0.05_b0.1_branch0.0/result.json": {
+    "bytes": 2532,
+    "sha256": "af2313ecb0cbd9e1ccdf7be52281804ac7136040f8f6e9330f2b30f543f8fc36"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 51481,
+    "sha256": "4aa6d1d2bd0941eda89a4b59525cf587d48964775dd7311eb3484c3532d5b0c2"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s13_r0.05_b0.1/result.json": {
+    "bytes": 2505,
+    "sha256": "9bfae06e63cbd957fdfc011e0b49fdf3efe40c4784402bce07178f7dd23f1719"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "f03122e3fee2f60058ecf3ca4aa84efcc2e77ad030ff8ce02117b012d9d4c292"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51478,
+    "sha256": "e22b6a9998e72bc41e9dfa5435cd7026311a5111cce6abfc776bf5b62d9a9380"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s29_r0.05_b0.1/result.json": {
+    "bytes": 2506,
+    "sha256": "27a4f59454c32b78c75992fb494b069ea1d6b931a13c49ccbe86b2b214ca6648"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "975a4ddfb914d168066f8c775bb47cac8ddeb1288c1ef4ba75d8dfba203cfa36"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 51238,
+    "sha256": "d476bdf9ee2957efe946b52f17bb9bfab9243b60f325ee55ca06edaf9060f493"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s47_r0.05_b0.1/result.json": {
+    "bytes": 2504,
+    "sha256": "800ea4ffb86355d2b302fa5764df5cb6a1530c7f7f3df088b11ef3d6a50497f9"
+  },
+  "ESWA_KG_Polyp/results/kvasir_deeplab_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "25fc0dd64d282a63ca25a6f70435c9827a925b286c37b7d95f7d3996bf3baf32"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 51361,
+    "sha256": "8a75267c2dc501b2b92cf156eb1c6442b9e68943e5d0e109c27273e6c19016cc"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1/result.json": {
+    "bytes": 2497,
+    "sha256": "91013d220b504207b90dbbbc4a8fdec6e674e0b03794000d9948a799d585fe1e"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1/result_before_operating_point.json": {
+    "bytes": 1846,
+    "sha256": "14a1fc27e7c4f21a4496df926a20fc9d77479a96f56ad510182b852543e824b5"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "6c03dcc1f46a3079c2f6a4abb831d94d8ed9f2b6930244d04b37aa198206333b"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1_base10/per_image.json": {
+    "bytes": 50852,
+    "sha256": "0267158c300f5e1be6fc7ae75806f387ac6094a234574d66ec0e79ea81eb1276"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1_base10/result.json": {
+    "bytes": 2514,
+    "sha256": "ecb749d5a3ca9e40affdee773de16ffa79de05628602014134376b799fb21ae7"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1_base10/robustness.json": {
+    "bytes": 325,
+    "sha256": "71e31c3fb6cbcf1496ad6cff123a0096a352da9d8dbfb7ec501b3fc1d7827fe3"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1_size128/per_image.json": {
+    "bytes": 51759,
+    "sha256": "713d9ab7955221669bf9e323dd8c6767924609b2942f14d4039114884196cc78"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s13_r0.05_b0.1_size128/result.json": {
+    "bytes": 2503,
+    "sha256": "a19e276ce8e54ae1a5df872c863e15f557e3edf6c8c0b0ec728c119c64370bc5"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51164,
+    "sha256": "1809e9f0cfbed350fe059bd31054be43f19802bd4097709671830b7e2e5a1b7f"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1/result.json": {
+    "bytes": 2486,
+    "sha256": "080b4a5dcb8d1efe8f393a2807d4e7ba183aca8a3310bb7c3babd77eb464964e"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1/result_before_operating_point.json": {
+    "bytes": 1849,
+    "sha256": "dddf03e1eba3df1acda6ab681c24fdd7103b2c2a2f6bcd9bac8ca12705d82aa6"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "af921d9c9d28fda03b65ac971f4de875967ee30466d4f9f9fb1f2fc4fc767df1"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1_base10/per_image.json": {
+    "bytes": 50952,
+    "sha256": "76d83254f6b39e948ca3e98066537229611ed12caebe2e671d1f3c4b72ac03a7"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1_base10/result.json": {
+    "bytes": 2528,
+    "sha256": "125627e54006c63011d4f2d3845f5983224ecda4983cabce5b56015c770fdedf"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s29_r0.05_b0.1_base10/robustness.json": {
+    "bytes": 326,
+    "sha256": "8165df15813f6b5c02f439628f91335200616037873987b0166cb0b532b217a6"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 51057,
+    "sha256": "a4a0cfdb51110c839e3cd1b52fa6a7a396a69fc8b48398196a6449cca9433934"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1/result.json": {
+    "bytes": 2499,
+    "sha256": "3a7216a126e5f14fcdca9045812d143b71813ba6129c940081d3be09386d9fa0"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1/result_before_operating_point.json": {
+    "bytes": 1847,
+    "sha256": "dbc7c4d0e8b0a3ea6101430fcf31ea0e4b0a7517bb9668685ac7114895de5f45"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 325,
+    "sha256": "c548848a85154fdbb694ee4b4802442691ede42467652754eeb568e358534e05"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1_base10/per_image.json": {
+    "bytes": 50892,
+    "sha256": "145dc14cb4bcb2e42b7e5f890ec880c432f06e70f2970def2a01ff362b352c90"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1_base10/result.json": {
+    "bytes": 2532,
+    "sha256": "717e9d2002203989af1c7e599918c0fe41f5b804e6e56ed1b7ab1b674b03a727"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unet_s47_r0.05_b0.1_base10/robustness.json": {
+    "bytes": 326,
+    "sha256": "ec70ab8bf1ca8d398a3aa385bec61368996fb6bea707d60f4e0bc10a1ba71aaa"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s13_r0.05_b0.1/per_image.json": {
+    "bytes": 51160,
+    "sha256": "913a7564e472cdd5b2f1745f22d88ec0bdfb9afd988ad43e4317e5b323479854"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s13_r0.05_b0.1/result.json": {
+    "bytes": 2506,
+    "sha256": "31f3d2d03ef8ee53894e1b4dcfed283551c0930d5f2362275a0ab39959ae24d9"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s13_r0.05_b0.1/robustness.json": {
+    "bytes": 324,
+    "sha256": "c4dcc059b73bd24d6b6d33f1d95098940d388c8be3e9ae4c308e8359b343cbf7"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s29_r0.05_b0.1/per_image.json": {
+    "bytes": 51014,
+    "sha256": "9ce55526157dd22862ba9fdc46987281b8a139ac155216c60541afcba0dcbffb"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s29_r0.05_b0.1/result.json": {
+    "bytes": 2509,
+    "sha256": "0ee4a4259bf794903cdbcc54107b2e479ae244d161f4e83df516b1f3ac0a4a3e"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s29_r0.05_b0.1/robustness.json": {
+    "bytes": 326,
+    "sha256": "2f8167a4e668338866b276fda632f777fbb384d01937bebd40613b251302be96"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s47_r0.05_b0.1/per_image.json": {
+    "bytes": 50992,
+    "sha256": "d75f4234e21aece697c269aa0ce6537d248d2d31cae179c1f2b63c2c6fd15fe9"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s47_r0.05_b0.1/result.json": {
+    "bytes": 2491,
+    "sha256": "37ba41d339d8881d2ffc4c3f399e2be82705ee362092b4d7be746dc8f8f6ed94"
+  },
+  "ESWA_KG_Polyp/results/kvasir_unetpp_s47_r0.05_b0.1/robustness.json": {
+    "bytes": 325,
+    "sha256": "99914b56f471ff502679e3acf84bccdb1ba24569e8a46d6813cd71bb4c15a5e6"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_boundary_s13_size64.npz": {
+    "bytes": 1017478,
+    "sha256": "40e58ed0c7e8bdb62f424808df0415f0d8a1904dca3ee1abd6236dbfd1b26725"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_boundary_s29_size64.npz": {
+    "bytes": 991104,
+    "sha256": "fb7084cae475f31d5bbbbbf3d4c9727ef4ebf01ccc152f0039ac75d4ee195f21"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_boundary_s47_size64.npz": {
+    "bytes": 1049115,
+    "sha256": "e0d2988842c8b4e7f2cfc885692d6af60cfcba0b7b93fb726843edc53768ff0e"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_dual_s13_size64.npz": {
+    "bytes": 988010,
+    "sha256": "b51900eee90c09bd0a66067c96f57ef00d12faf2a5a425c6c1da77462e43c603"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_dual_s29_size64.npz": {
+    "bytes": 1024151,
+    "sha256": "86adf58ea64a476fb4c983339848e6e471101c11e528379d2c56f3a96daa5b08"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_dual_s47_size64.npz": {
+    "bytes": 984246,
+    "sha256": "3a2961144e8e332131c4453039daee5d5a0e8d25c1cbdb83ee9b7a3ba3a64143"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_graph_only_s13_size64.npz": {
+    "bytes": 1022586,
+    "sha256": "cd6994e8eabab4172b40b32e8254c99209c26c998cdffccd8d3f078fbd5e90fc"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_graph_only_s29_size64.npz": {
+    "bytes": 992074,
+    "sha256": "0ca533e2b85ea980f9f1dfb2820d6ef42c6ef141512644c11f9e781c9dbb6704"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_graph_only_s47_size64.npz": {
+    "bytes": 1046660,
+    "sha256": "19a022a69b60bbc81acd93c19239e101c86390501550699a604894be8ee4edfd"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_relation_s13_size64.npz": {
+    "bytes": 1025534,
+    "sha256": "e22d01e664feb2d219dd902682cdb213b03a9eadec0556fd1fdd8bc2423ee373"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_relation_s29_size64.npz": {
+    "bytes": 981341,
+    "sha256": "4519be3024483bdd6263b3687393362769ec67de4a7dcd89744227c01efa23bf"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_ablation_relation_s47_size64.npz": {
+    "bytes": 1054827,
+    "sha256": "b21cdea36acfdebb5925cf90d0e3c8d3a70f5897c755190f6c7624f0455b5510"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_original_s13_r0.05_b0.1.npz": {
+    "bytes": 1027209,
+    "sha256": "4ecf1d20598e8bcb693ad6e6d5d1f5a0aa801d16dbe7dce61a27421b6be6419c"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_original_s29_r0.05_b0.1.npz": {
+    "bytes": 1003986,
+    "sha256": "86781fe2fbc69d201b757e7e143a14db4fd0d14317970fda5e66a62150912061"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_original_s47_r0.05_b0.1.npz": {
+    "bytes": 1041538,
+    "sha256": "37f3dee8f63c6ed2c51c0e3d47cc48e456592c1d2fc2d3963dd62d0b495a30fe"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_s13_r0.05_b0.1.npz": {
+    "bytes": 1047513,
+    "sha256": "91080813de06ea13f65be45c43885cfea0f8151b52405c3e4661d7eb239c3ceb"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_s29_r0.05_b0.1.npz": {
+    "bytes": 1022150,
+    "sha256": "74645640367bffc38606e76292e2fa0cf27b95cab2a8716f880bfcce6c98e87a"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_attention_s47_r0.05_b0.1.npz": {
+    "bytes": 1012714,
+    "sha256": "fa08c3c1826dcf7e1a3c67e3616649d23f74c5248e25bbb0bd373f4a47f79d39"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.0.npz": {
+    "bytes": 1018818,
+    "sha256": "a080e38ac70297652b9036204bd7cadb8f4cc13a6fbd10c7512738ca226238f8"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.05.npz": {
+    "bytes": 1023828,
+    "sha256": "8395c0e81f3867262dc96447cffd58c98fa37b41f422e417280e27b092c6515d"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.1.npz": {
+    "bytes": 1026089,
+    "sha256": "10cd9f421b5fcdb0e1ee54ea6b8c76b2d99ccac30b5d547ca8bff62764f2af88"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.1_branch0.0.npz": {
+    "bytes": 1029115,
+    "sha256": "373c823f747b54b9576c0c94c250cbcb6c6ae0d21fda6553f0ca6c8358f7d200"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.1_size128.npz": {
+    "bytes": 3910146,
+    "sha256": "a86f156ec4fb7857415ade976056fa2fd7828006c8418f74e738e5f279f19008"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s13_r0.05_b0.2.npz": {
+    "bytes": 1027604,
+    "sha256": "6fb7bc4056f54c10137e5f7f01f911c97a6ce917b1b2179ed58f9fcd8336d1da"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s29_r0.05_b0.1.npz": {
+    "bytes": 1012562,
+    "sha256": "93eb6a5a1e22729aaae3b212f852e55310f88dec67fe5d051ff5d6fdfc9662cb"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s29_r0.05_b0.1_branch0.0.npz": {
+    "bytes": 1034263,
+    "sha256": "7ec133b019231916016d376b6e043619616125fc5e00ef2cafc92df808428b16"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s47_r0.05_b0.1.npz": {
+    "bytes": 1042764,
+    "sha256": "c08bff008d8fd6b4def082cc46d4ffbdb023c8a07311f608801facd265700413"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_bcskg_s47_r0.05_b0.1_branch0.0.npz": {
+    "bytes": 1045466,
+    "sha256": "6f9058a3431acad7007dc33adadfc1d5b4ea2787367d4598add239aee57bf2a2"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_deeplab_s13_r0.05_b0.1.npz": {
+    "bytes": 1097955,
+    "sha256": "1e6a75cc8e835655039603b3478bd5e94199609b99299e16b46b4224072b45a9"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_deeplab_s29_r0.05_b0.1.npz": {
+    "bytes": 1082591,
+    "sha256": "be25557d7affa680f8704c4b508e8fd18dc864b0b766a298396c29a175492da2"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_deeplab_s47_r0.05_b0.1.npz": {
+    "bytes": 1080614,
+    "sha256": "ac15a3c9aaf841309b37484841d9a9d2c46c93b2fb29f612f0a72ad4c738a52f"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s13_r0.05_b0.1.npz": {
+    "bytes": 931353,
+    "sha256": "637ba6571725ae43b915780b4725adc849b698a1cebb7f5bd67cf208aff04c17"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s13_r0.05_b0.1_base10.npz": {
+    "bytes": 1029092,
+    "sha256": "fbdc24a82e6de29b0e6780723aea359f6dd4b5b684f133d36014224095196fe9"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s13_r0.05_b0.1_size128.npz": {
+    "bytes": 3428757,
+    "sha256": "981f0faeb901d3eee73fc623bfcfad6990b68282af4f3fc1c1daf5c1d0a083c2"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s29_r0.05_b0.1.npz": {
+    "bytes": 1021013,
+    "sha256": "d445c9bdea8ab4b1636a6a909162723cb6f2308bc8c09c00428fec7c9f4a5285"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s29_r0.05_b0.1_base10.npz": {
+    "bytes": 1026045,
+    "sha256": "bd3363449f599cb8d47e16c685a2891e33c116b92e078239e61c27c96327d4cb"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s47_r0.05_b0.1.npz": {
+    "bytes": 1000878,
+    "sha256": "7bc0b4741ed460a86ee19b9b07f81c384912847c0c5990bb8459442d75e78a41"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unet_s47_r0.05_b0.1_base10.npz": {
+    "bytes": 1034855,
+    "sha256": "f04138bc48b14951cf8aa47696f2976d198bda6187278a1016caa7fb03a5c8ed"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unetpp_s13_r0.05_b0.1.npz": {
+    "bytes": 1042541,
+    "sha256": "abd4b9383ff556aeb28aa1f4d0641f2b654480dba8eebabd5b57ac5db1b9faf6"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unetpp_s29_r0.05_b0.1.npz": {
+    "bytes": 1032389,
+    "sha256": "3e450dd743a7bbd860fc10425643bcb12f05bd103833536a315051637ac82b9a"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/kvasir_unetpp_s47_r0.05_b0.1.npz": {
+    "bytes": 1017939,
+    "sha256": "2720e2f9b330fb7fa58e769e78b7234b868068448ae1839fe9916664e67c30ae"
+  },
+  "ESWA_KG_Polyp/results/prediction_bundles/manifest.json": {
+    "bytes": 11042,
+    "sha256": "7c79adc1c9d934081a0d14d70ab86fe2512d8a46214b77cdddfe1d4e7bbec63d"
+  },
+  "ESWA_KG_Polyp/results/revision_diagnostics.json": {
+    "bytes": 5464,
+    "sha256": "de6667b7cabd3311f262d60717619c6023131c951d46d491d2e3fdc60e5f5ac8"
+  },
+  "ESWA_KG_Polyp/results/revision_statistics.json": {
+    "bytes": 10347,
+    "sha256": "b03c4ba1fb619fb97e55bd8088605806cede6e3b3494f5596d0d755b3288a255"
+  },
+  "ESWA_KG_Polyp/results/split_manifest.csv": {
+    "bytes": 119567,
+    "sha256": "7eca0851d794c865e09ad89df945f3643c4ddf6387966202ab2d6953036b5362"
+  },
+  "ESWA_KG_Polyp/results/statistical_tests.json": {
+    "bytes": 1293,
+    "sha256": "2283438c5066fda5a1eecbd98df930b70f852161b02ac7a063d50d2b624534b2"
+  },
+  "ESWA_KG_Polyp/src/ablation_experiment.py": {
+    "bytes": 7504,
+    "sha256": "6ed675f00c18287038ff9d7bbc14d6c5bd06a00982bf74a8f98d3bf01f192ebd"
+  },
+  "ESWA_KG_Polyp/src/baseline_models.py": {
+    "bytes": 3899,
+    "sha256": "e8159b436cf68895dd7b89cda1c81cbe25e180a112a70598777099a8d35325f4"
+  },
+  "ESWA_KG_Polyp/src/benchmark_expanded_efficiency.py": {
+    "bytes": 1261,
+    "sha256": "6164f2f5322925928e1c2ef7f9a4f3dd7ff498399d48c496998f9f36f7fb5f47"
+  },
+  "ESWA_KG_Polyp/src/bundle_predictions.py": {
+    "bytes": 3354,
+    "sha256": "adc6dd8d032fcc0dc433102973fb3acf796c8dac923b7e892b9e8ae4ddb8ff1b"
+  },
+  "ESWA_KG_Polyp/src/download_data.sh": {
+    "bytes": 989,
+    "sha256": "227a2c9385287dfd812dec220d750b97c85580692fcf3c6ee87763c5503cf6a6"
+  },
+  "ESWA_KG_Polyp/src/experiment.py": {
+    "bytes": 11846,
+    "sha256": "718c9d16d4c11f6ebf48425e80e82748ab85f7476212d57e9e76262f03ebab6b"
+  },
+  "ESWA_KG_Polyp/src/extended_evaluation.py": {
+    "bytes": 3464,
+    "sha256": "a5f8664938e4752a6c8a311564f74924b227f3c418d83817943cff05d7e5cd19"
+  },
+  "ESWA_KG_Polyp/src/final_pdf_assets.py": {
+    "bytes": 11340,
+    "sha256": "f5afdd2a793c9490d288564eaf8eb5d7a32ea2eb407b3851713fb5fabff5bfb3"
+  },
+  "ESWA_KG_Polyp/src/model.py": {
+    "bytes": 6903,
+    "sha256": "bd84592b259b9e52e7d517319a7b84a88d781270c1d9fc5c79d291908149bc77"
+  },
+  "ESWA_KG_Polyp/src/recompute_archived_surfaces.py": {
+    "bytes": 8213,
+    "sha256": "76aa6be895c9750f31bb3f61b44fa80d45084edfee5f41997e0e1a3b0462328b"
+  },
+  "ESWA_KG_Polyp/src/requirements.txt": {
+    "bytes": 104,
+    "sha256": "2bf8941e6dd4f124189e85c39ef9d7e045ce167c37a7575f466f500154b61657"
+  },
+  "ESWA_KG_Polyp/src/revision_analysis.py": {
+    "bytes": 4613,
+    "sha256": "4872ed14e9fafcec0c7d859f9862736059934f849f664bd6bce3fbb721db6deb"
+  },
+  "ESWA_KG_Polyp/src/revision_assets.py": {
+    "bytes": 14619,
+    "sha256": "981fe84cc38f8a4c7d72b3e93455711965401870c4b02c12f51c718184f15bbd"
+  },
+  "ESWA_KG_Polyp/src/revision_statistics.py": {
+    "bytes": 3293,
+    "sha256": "eb826be040364225f1bb4afcbc68a14ea5ccbe6ff17434a659c0d612245f77c3"
+  },
+  "ESWA_KG_Polyp/src/run_additional_comparisons.sh": {
+    "bytes": 514,
+    "sha256": "2d09795caaa5244441ea5860463e30bbb8bf3bf28651619cc4b42da0a0f138f7"
+  },
+  "ESWA_KG_Polyp/src/run_expanded_controls.sh": {
+    "bytes": 786,
+    "sha256": "2c84354c9de2986df7201e66f057b53f9152596141a2da006f6d97cd3fb7b3ab"
+  },
+  "ESWA_KG_Polyp/src/run_final_main.sh": {
+    "bytes": 228,
+    "sha256": "aba15d1ed56f50d61eae7d43b63e7dd8c3bd5eeb56193088ae4e082509dee2df"
+  },
+  "ESWA_KG_Polyp/src/run_revision_experiments.sh": {
+    "bytes": 727,
+    "sha256": "bcceba3222d5feb38d1a5c929e174a77a1efd059dff3fdcbcbff84f57c8cb19c"
+  },
+  "ESWA_KG_Polyp/src/surface_metrics.py": {
+    "bytes": 1136,
+    "sha256": "1daa788498989a45c8a5fa1a2191cf35590ba9965f5ade050ded28d6f4c0be3d"
+  },
+  "ESWA_KG_Polyp/src/test_model.py": {
+    "bytes": 1173,
+    "sha256": "23412fbb501894a058196085568b3d3153f5d42fad5b20cc7e133e9fb5d34082"
+  },
+  "ESWA_KG_Polyp/src/test_surface_metrics.py": {
+    "bytes": 1723,
+    "sha256": "278a852cf748ce16da92092e3123961de0f2dc68c26b1ffc741894723721edc6"
+  },
+  "ESWA_KG_Polyp/src/validate_revision.py": {
+    "bytes": 2282,
+    "sha256": "1df6061f465a6d22878bab02e217e0924e9e3a902df09dedf05e25bdd2bcb585"
+  },
+  "ESWA_KG_Polyp/src/validate_surface_revision.py": {
+    "bytes": 4685,
+    "sha256": "93c23203ad119571aa5b1c224a74348f416624d1bff26c48dbfe2db8fa6b4f3a"
+  },
+  "ESWA_KG_Polyp/src/verify_data.py": {
+    "bytes": 2098,
+    "sha256": "7952c153b2bef69ff28d51d8b7110f8fd68f440ca944c8884cd246fd7e01cc36"
+  },
+  "ESWA_KG_Polyp/src/verify_kvasir.py": {
+    "bytes": 1561,
+    "sha256": "85592a742ca7e5b114b913e2577da07241e2bc05a416c81b626b86ddbc9e19aa"
+  },
+  "README.md": {
+    "bytes": 1301,
+    "sha256": "ae74370c824ab021a393f076589af613e3cc26ac3ca94b0e1d0fd488dcf03e3e"
+  },
+  "figure_revision_2026-10-28/figures/draw_remaining.py": {
+    "bytes": 11051,
+    "sha256": "22286cbec71ad61e591ab8fcb7d7596c30529bbe399f3333523d8f150ed946e8"
+  },
+  "figure_revision_2026-10-28/figures/extract_graph_evidence.py": {
+    "bytes": 1828,
+    "sha256": "ec320b41f5486fc125a2c57c07f7a80341b1fb84b75631a1f911268b971d8d86"
+  },
+  "figure_revision_2026-10-28/figures/figure_data.py": {
+    "bytes": 2740,
+    "sha256": "1a5c2b8a9ef3325beafe2d51674cb37bb7b8f6998b8f784569a2aa1f8ba435f9"
+  },
+  "figure_revision_2026-10-28/figures/gen_per_image_dice.py": {
+    "bytes": 1770,
+    "sha256": "ad42a9feb075b3e8793d92802b991bb8e3b7d57f3ff75a0e7a8d5519f9fe6d1f"
+  },
+  "figure_revision_2026-10-28/figures/gen_protocol_diagnostics.py": {
+    "bytes": 4068,
+    "sha256": "f5fe8f292b59bc44664654468d2730e8faa1bb637c5387eae5710611866bb96e"
+  },
+  "figure_revision_2026-10-28/figures/gen_training_dynamics.py": {
+    "bytes": 1886,
+    "sha256": "5429f7d66a7b97a134695c777faadf25dd8ecff86e2d4f3f6651d5910e947e81"
+  },
+  "figure_revision_2026-10-28/palette.json": {
+    "bytes": 267,
+    "sha256": "e91dceb67a0f245595129126c9986ea91d6784f9b148e14ba05fb814333916a7"
+  }
+}
